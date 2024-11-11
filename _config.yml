@@ -1,0 +1,12 @@
+title: dxdez
+email: dylan.x.h.developer@gmail.com 
+description: >- 
+  The profile page for dxdez. I use this platform to share my notes and my work.
+baseurl: "" 
+url: "" 
+github_username:  dxdez
+
+theme: minima
+plugins:
+  - jekyll-feed
+
