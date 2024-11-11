@@ -5,6 +5,7 @@ description: >-
 baseurl: "" 
 url: "" 
 github_username:  dxdez
+linkedin_username: dxdez
 
 theme: minima
 plugins:
