@@ -3,6 +3,10 @@ layout: page
 title: Resources
 permalink: /resources/
 ---
+## Table of Contents
+- [Assets and Tools](#assets-and-tools)
+- [Go](#go)
+- [Python](#python)
 
 ## Assets and Tools
 
@@ -17,7 +21,7 @@ permalink: /resources/
 - [Geeks for Geeks](https://www.geeksforgeeks.org/ "Geeks for Geeks") - A resource for develoeprs which include various articles, guides on data structures and video tutorials on various subjects.
 
 #### Audio Resources
-- [sfxr](https://drpetter.se/project_sfxr.html "sfxr") - Legacy software that can be used to generate some new sounds
+- [sfxr](https://drpetter.se/projectsfxr.html "sfxr") - Legacy software that can be used to generate some new sounds
 - [ChipTone](https://sfbgames.itch.io/chiptone "ChipTone") - Online resource for generating simple wave files for sound effects
 - [FamiTracker](http://www.famitracker.com/links.php "FamiTracker") - An additional audio resources for creating audio files
 - [Programming Benchmarks](https://programming-language-benchmarks.vercel.app "Programming Benchmarks") - Online resource for comparing various programming benchmarks
@@ -25,8 +29,118 @@ permalink: /resources/
 - [LMMS Repo](https://github.com/LMMS/lmms "LMMS Repo") - The Github repository for LMMS
 
 #### CSS Frameworks
-[PicoCSS](https://picocss.com/) - Minimal CSS Framework for Semantic HTML
-[BeerCSS(https://www.beercss.com/) - Build material design interfaces in record time
+- [PicoCSS](https://picocss.com/) - Minimal CSS Framework for Semantic HTML
+- [BeerCSS(https://www.beercss.com/) - Build material design interfaces in record time
+
+## C/C++
+
+#### Network programming
+- Let's Code a TCP/IP Stack
+  - [Part 1: Ethernet & ARP](http://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/)
+  - [Part 2: IPv4 & ICMPv4](http://www.saminiir.com/lets-code-tcp-ip-stack-2-ipv4-icmpv4/)
+  - [Part 3: TCP Basics & Handshake](http://www.saminiir.com/lets-code-tcp-ip-stack-3-tcp-handshake/)
+  - [Part 4: TCP Data Flow & Socket API](http://www.saminiir.com/lets-code-tcp-ip-stack-4-tcp-data-flow-socket-api/)
+  - [Part 5: TCP Retransmission](http://www.saminiir.com/lets-code-tcp-ip-stack-5-tcp-retransmission/)
+- Programming Concurrent Servers
+  - [Part 1 - Introduction](https://eli.thegreenplace.net/2017/concurrent-servers-part-1-introduction/)
+  - [Part 2 - Threads](https://eli.thegreenplace.net/2017/concurrent-servers-part-2-threads/)
+  - [Part 3 - Event-driven](https://eli.thegreenplace.net/2017/concurrent-servers-part-3-event-driven/)
+  - [Part 4 - libuv](https://eli.thegreenplace.net/2017/concurrent-servers-part-4-libuv/)
+  - [Part 5 - Redis case study](https://eli.thegreenplace.net/2017/concurrent-servers-part-5-redis-case-study/)
+  - [Part 6 - Callbacks, Promises and async/await](https://eli.thegreenplace.net/2018/concurrent-servers-part-6-callbacks-promises-and-asyncawait/)
+
+#### Compilation and Debugging
+- Write a C compiler
+  - [Part 1: Integers, Lexing and Code Generation](https://norasandler.com/2017/11/29/Write-a-Compiler.html)
+  - [Part 2: Unary Operators](https://norasandler.com/2017/12/05/Write-a-Compiler-2.html)
+  - [Part 3: Binary Operators](https://norasandler.com/2017/12/15/Write-a-Compiler-3.html)
+  - [Part 4: Even More Binary Operators](https://norasandler.com/2017/12/28/Write-a-Compiler-4.html)
+  - [Part 5: Local Variables](https://norasandler.com/2018/01/08/Write-a-Compiler-5.html)
+  - [Part 6: Conditionals](https://norasandler.com/2018/02/25/Write-a-Compiler-6.html)
+  - [Part 7: Compound Statements](https://norasandler.com/2018/03/14/Write-a-Compiler-7.html)
+  - [Part 8: Loops](https://norasandler.com/2018/04/10/Write-a-Compiler-8.html)
+  - [Part 9: Functions](https://norasandler.com/2018/06/27/Write-a-Compiler-9.html)
+  - [Part 10: Global Variables](https://norasandler.com/2019/02/18/Write-a-Compiler-10.html)
+- Writing a Linux Debugger
+  - [Part 1: Setup](https://blog.tartanllama.xyz/writing-a-linux-debugger-setup/)
+  - [Part 2: Breakpoints](https://blog.tartanllama.xyz/writing-a-linux-debugger-breakpoints/)
+  - [Part 3: Registers and memory](https://blog.tartanllama.xyz/writing-a-linux-debugger-registers/)
+  - [Part 4: Elves and dwarves](https://blog.tartanllama.xyz/writing-a-linux-debugger-elf-dwarf/)
+  - [Part 5: Source and signals](https://blog.tartanllama.xyz/writing-a-linux-debugger-source-signal/)
+  - [Part 6: Source-level stepping](https://blog.tartanllama.xyz/writing-a-linux-debugger-dwarf-step/)
+  - [Part 7: Source-level breakpoints](https://blog.tartanllama.xyz/writing-a-linux-debugger-source-break/)
+  - [Part 8: Stack unwinding](https://blog.tartanllama.xyz/writing-a-linux-debugger-unwinding/)
+  - [Part 9: Handling variables](https://blog.tartanllama.xyz/writing-a-linux-debugger-variables/)
+  - [Part 10: Advanced topics](https://blog.tartanllama.xyz/writing-a-linux-debugger-advanced-topics/)
+- Let's write a compiler
+  - [Part 1: Introduction, selecting a language, and doing some planning](https://briancallahan.net/blog/20210814.html)
+  - [Part 2: A lexer](https://briancallahan.net/blog/20210815.html)
+  - [Part 3: A parser](https://briancallahan.net/blog/20210816.html)
+  - [Part 4: Testing](https://briancallahan.net/blog/20210817.html)
+  - [Part 5: A code generator](https://briancallahan.net/blog/20210818.html)
+  - [Part 6: Input and output](https://briancallahan.net/blog/20210819.html)
+  - [Part 7: Arrays](https://briancallahan.net/blog/20210822.html)
+  - [Part 8: Strings, forward references, and conclusion](https://briancallahan.net/blog/20210826.html)
+
+#### C
+- [Let's Build a Simple Database](https://cstack.github.io/dbtutorial/)
+- [Linux containers in 500 lines of code](https://blog.lizzie.io/linux-containers-in-500-loc.html)
+- [Write your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/)
+- [Writing a Game Boy emulator, Cinoop](https://cturt.github.io/cinoop.html)
+- [Beej's Guide to Network Programming](http://beej.us/guide/bgnet/)
+- [Let's code a TCP/IP stack](http://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/)
+- [Operating Systems: From 0 to 1](https://tuhdo.github.io/os01/)
+- [The little book about OS development](https://littleosbook.github.io/)
+- [Roll your own toy UNIX-clone OS](http://jamesmolloy.co.uk/tutorialhtml/)
+- [Kernel 101 – Let’s write a Kernel](https://arjunsreedharan.org/post/82710718100/kernel-101-lets-write-a-kernel)
+- [Kernel 201 – Let’s write a Kernel with keyboard and screen support](https://arjunsreedharan.org/post/99370248137/kernel-201-lets-write-a-kernel-with-keyboard)
+- [Baby's First Garbage Collector](http://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/)
+- [Build Your Own Lisp: Learn C and build your own programming language in 1000 lines of code](http://www.buildyourownlisp.com/)
+- [Writing a Simple Garbage Collector in C](http://maplant.com/gc.html)
+- [C interpreter that interprets itself.](https://github.com/lotabout/write-a-C-interpreter)
+- [A C & x86 version of the "Let's Build a Compiler" by Jack Crenshaw](https://github.com/lotabout/Let-s-build-a-compiler)
+- [A journey explaining how to build a compiler from scratch](https://github.com/DoctorWkt/acwj)
+- [A Regular Expression Matcher](https://www.cs.princeton.edu/courses/archive/spr09/cos333/beautiful.html)
+- [Regular Expression Matching Can Be Simple And Fast](https://swtch.com/~rsc/regexp/regexp1.html)
+- [Writing a UNIX Shell](https://indradhanush.github.io/blog/writing-a-unix-shell-part-1/)
+- [Write a shell in C](https://danishpraka.sh/posts/write-a-shell/)
+- [Build Your Own Text Editor](https://viewsourcecode.org/snaptoken/kilo/)
+- [How to Write a Video Player in Less Than 1000 Lines](http://dranger.com/ffmpeg/ffmpeg.html)
+- [Learn how to write a hash table in C](https://github.com/jamesroutley/write-a-hash-table)
+- [The very basics of a terminal emulator](https://www.uninformativ.de/blog/postings/2018-02-24/0/POSTING-en.html)
+- [Write a Shell in C](https://brennan.io/2015/01/16/write-a-shell-in-c/)
+- [Write a System Call](https://brennan.io/2016/11/14/kernel-dev-ep3/)
+- [Sol - An MQTT broker from scratch](https://codepr.github.io/posts/sol-mqtt-broker)
+- [Write a Bootloader in C](http://3zanders.co.uk/2017/10/13/writing-a-bootloader/)
+
+#### C++
+- [Introduction to Ray Tracing: a Simple Method for Creating 3D Images](https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing/how-does-it-work)
+- [How OpenGL works: software rendering in 500 lines of code](https://github.com/ssloy/tinyrenderer/wiki)
+- [Raycasting engine of Wolfenstein 3D](http://lodev.org/cgtutor/raycasting.html)
+- [Physically Based Rendering:From Theory To Implementation](http://www.pbr-book.org/)
+- [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
+- [Rasterization: a Practical Implementation](https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/overview-rasterization-algorithm)
+- [Build Your Own Redis from Scratch](https://build-your-own.org/redis)
+- [Breakout](https://learnopengl.com/In-Practice/2D-Game/Breakout)
+- [Beginning Game Programming v2.0](http://lazyfoo.net/tutorials/SDL/)
+- [Space Invaders from Scratch](http://nicktasios.nl/posts/space-invaders-from-scratch-part-1.html)
+- [Writing a Bootloader](http://3zanders.co.uk/2017/10/13/writing-a-bootloader/)
+- [Game physics series by Allen Chou](http://allenchou.net/game-physics-series/)
+- [How to Create a Custom Physics Engine](https://gamedevelopment.tutsplus.com/series/how-to-create-a-custom-physics-engine--gamedev-12715)
+- [Designing a Simple Text Editor](http://www.fltk.org/doc-1.1/editor.html)
+
+## Go
+- [Build Your Own Database from Scratch: Persistence, Indexing, Concurrency](https://build-your-own.org/database/)
+- [Build Your Own Redis from Scratch](https://www.build-redis-from-scratch.dev/)
+- [Build a multilayer perceptron with Golang](https://made2591.github.io/posts/neuralnetwork)
+- [How to build a simple artificial neural network with Go](https://sausheong.github.io/posts/how-to-build-a-simple-artificial-neural-network-with-go/)
+- [Building a Neural Net from Scratch in Go](https://datadan.io/blog/neural-net-with-go)
+- [How to build a regex engine from scratch](https://rhaeguard.github.io/posts/regex)
+- [Build A Simple Terminal Emulator In 100 Lines of Golang](https://ishuah.com/2021/03/10/build-a-terminal-emulator-in-100-lines-of-go/)
+- [Let's Create a Simple Load Balancer](https://kasvith.me/posts/lets-create-a-simple-lb-go/)
+- [Building Go Web Applications and Microservices Using Gin](https://semaphoreci.com/community/tutorials/building-go-web-applications-and-microservices-using-gin)
+- [How to Use Godog for Behavior-driven Development in Go](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go)
+- [Go WebAssembly Tutorial - Building a Calculator Tutorial](https://tutorialedge.net/golang/go-webassembly-tutorial/)
 
 ## Python
 - [Automate the Boring Stuff](https://automatetheboringstuff.com/)
@@ -101,7 +215,7 @@ permalink: /resources/
 
 - Learn Python For Data Science by Doing Several Projects (video):
   - [Part 1: Introduction](https://www.youtube.com/watch?v=T5pRlIbr6gg)
-  - [Part 2: Twitter Sentiment Analysis](https://www.youtube.com/watch?v=o_OZdbCzHUA)
+  - [Part 2: Twitter Sentiment Analysis](https://www.youtube.com/watch?v=oOZdbCzHUA)
   - [Part 3: Recommendation Systems](https://www.youtube.com/watch?v=9gBC9R-msAk&list=PL2-dafEMk2A6QKz1mrk1uIGfHkC1zZ6UU&index=3)
   - [Part 4: Predicting Stock Prices](https://www.youtube.com/watch?v=SSu00IRRraY&index=4&list=PL2-dafEMk2A6QKz1mrk1uIGfHkC1zZ6UU)
   - [Part 5: Deep Dream in TensorFlow](https://www.youtube.com/watch?v=MrBzgvUNr4w&list=PL2-dafEMk2A6QKz1mrk1uIGfHkC1zZ6UU&index=5)
@@ -113,7 +227,7 @@ permalink: /resources/
 - [Step-By-Step Machine Learning In Python](https://machinelearningmastery.com/machine-learning-in-python-step-by-step/)
 - [Predict Quality Of Wine](https://medium.freecodecamp.org/using-machine-learning-to-predict-the-quality-of-wines-9e2e13d7480d)
 - [Solving A Fruits Classification Problem](https://towardsdatascience.com/solving-a-simple-classification-problem-with-python-fruits-lovers-edition-d20ab6b071d2)
-- [Learn Unsupervised Learning with Python](https://scikit-learn.org/stable/unsupervised_learning.html)
+- [Learn Unsupervised Learning with Python](https://scikit-learn.org/stable/unsupervisedlearning.html)
 - [Build Your Own Neural Net from Scratch in Python](https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6)
 - [Linear Regression in Python without sklearn](https://medium.com/we-are-orb/linear-regression-in-python-without-scikit-learn-50aef4b8d122)
 - [Multivariate Linear Regression without sklearn](https://medium.com/we-are-orb/multivariate-linear-regression-in-python-without-scikit-learn-7091b1d45905)
@@ -134,7 +248,7 @@ permalink: /resources/
 - [Detect The Salient Features in an Image](https://www.pyimagesearch.com/2018/07/16/opencv-saliency-detection/)
 - [Build A Barcode Scanner](https://www.pyimagesearch.com/2018/05/21/an-opencv-barcode-and-qr-code-scanner-with-zbar/)
 - [Learn Face Clustering with Python](https://www.pyimagesearch.com/2018/07/09/face-clustering-with-python/)
-- [Object Tracking with Camshift](https://www.pyimagesearch.com/wp-content/uploads/2014/11/opencv_crash_course_camshift.pdf)
+- [Object Tracking with Camshift](https://www.pyimagesearch.com/wp-content/uploads/2014/11/opencvcrashcoursecamshift.pdf)
 - [Semantic Segmentation with OpenCV and Deep Learning](https://www.pyimagesearch.com/2018/09/03/semantic-segmentation-with-opencv-and-deep-learning/)
 - [Text Detection in Images and Videos](https://www.pyimagesearch.com/2018/08/20/opencv-text-detection-east-text-detector/)
 - [People Counter using OpenCV](https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/)
@@ -205,8 +319,8 @@ permalink: /resources/
 - [Build a Distributed Streaming System with Python and Kafka](https://codequs.com/p/S14jQ5UyG/build-a-distributed-streaming-system-with-apache-kafka-and-python)
 - [Writing a basic x86-64 JIT compiler from scratch in stock Python](https://csl.name/post/python-jit/)
 - Making a low level (Linux) debugger
-  - [Part 1](https://blog.asrpo.com/making_a_low_level_debugger)
-  - [Part 2: C](https://blog.asrpo.com/making_a_low_level_debugger_part_2)
+  - [Part 1](https://blog.asrpo.com/makingalowleveldebugger)
+  - [Part 2: C](https://blog.asrpo.com/makingalowleveldebuggerpart2)
 - Implementing a Search Engine
   - [Part 1](http://www.ardendertat.com/2011/05/30/how-to-implement-a-search-engine-part-1-create-index/)
   - [Part 2](http://www.ardendertat.com/2011/05/31/how-to-implement-a-search-engine-part-2-query-index/)
