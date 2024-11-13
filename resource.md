@@ -7,6 +7,7 @@ permalink: /resources/
 - [Assets and Tools](#assets-and-tools)
 - [Go](#go)
 - [Python](#python)
+- [Rust](#rust)
 
 ## Assets and Tools
 
@@ -48,6 +49,22 @@ permalink: /resources/
   - [Part 4 - libuv](https://eli.thegreenplace.net/2017/concurrent-servers-part-4-libuv/)
   - [Part 5 - Redis case study](https://eli.thegreenplace.net/2017/concurrent-servers-part-5-redis-case-study/)
   - [Part 6 - Callbacks, Promises and async/await](https://eli.thegreenplace.net/2018/concurrent-servers-part-6-callbacks-promises-and-asyncawait/)
+
+#### OpenGL
+  - [Breakout](https://learnopengl.com/In-Practice/2D-Game/Breakout)
+  - [Setting up](https://learnopengl.com/In-Practice/2D-Game/Setting-up)
+  - [Rendering Sprites](https://learnopengl.com/In-Practice/2D-Game/Rendering-Sprites)
+  - [Levels](https://learnopengl.com/In-Practice/2D-Game/Levels)
+  - Collisions
+    - [Ball](https://learnopengl.com/In-Practice/2D-Game/Collisions/Ball)
+    - [Collision detection](https://learnopengl.com/In-Practice/2D-Game/Collisions/Collision-detection)
+    - [Collision resolution](https://learnopengl.com/In-Practice/2D-Game/Collisions/Collision-resolution)
+  - [Particles](https://learnopengl.com/In-Practice/2D-Game/Particles)
+  - [Postprocessing](https://learnopengl.com/In-Practice/2D-Game/Postprocessing)
+  - [Powerups](https://learnopengl.com/In-Practice/2D-Game/Powerups)
+  - [Audio](https://learnopengl.com/In-Practice/2D-Game/Audio)
+  - [Render text](https://learnopengl.com/In-Practice/2D-Game/Render-text)
+  - [Final thoughts](https://learnopengl.com/In-Practice/2D-Game/Final-thoughts)
 
 #### Compilation and Debugging
 - Write a C compiler
@@ -333,3 +350,29 @@ permalink: /resources/
 - [Write yourself a Git](https://wyag.thb.lt/)
 - [A Python implementation of a Python bytecode runner](https://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html)
 - [Create a Voice assistant using Python](https://www.geeksforgeeks.org/voice-assistant-using-python/)
+
+## Rust:
+- [Learning Rust by building a partial Game Boy emulator](https://jeremybanks.github.io/0dmg/)
+- A Simple Web App in Rust
+  - [Part 1](http://joelmccracken.github.io/entries/a-simple-web-app-in-rust-pt-1/)
+  - [Part 2a](http://joelmccracken.github.io/entries/a-simple-web-app-in-rust-pt-2a/)
+  - [Part 2b](http://joelmccracken.github.io/entries/a-simple-web-app-in-rust-pt-2b/)
+- [Write an OS in pure Rust](https://os.phil-opp.com/)
+- [Build a browser engine in Rust](https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html)
+- [Write a Microservice in Rust](http://www.goldsborough.me/rust/web/tutorial/2018/01/20/17-01-11-writingamicroserviceinrust/)
+- [Learning Rust with Too Many Linked Lists](http://cglab.ca/~abeinges/blah/too-many-lists/book/README.html)
+- Writing Scalable Chat Service from Scratch
+  - [Part 1: Implementing WebSocket. Introduction.](https://nbaksalyar.github.io/2015/07/10/writing-chat-in-rust.html)
+  - [Part 2: Sending and Receiving Messages](https://nbaksalyar.github.io/2015/11/09/rust-in-detail-2.html)
+- [Writing a Rust Roguelike for the Desktop and the Web](https://aimlesslygoingforward.com/blog/2019/02/09/writing-a-rust-roguelike-for-the-desktop-and-the-web/)
+- [Single Page Applications using Rust](http://www.sheshbabu.com/posts/rust-wasm-yew-single-page-application/)
+- [Writing NES Emulator in Rust](https://bugzmanov.github.io/nesebook/)
+- [Adventures in Rust: A Basic 2D Game](https://a5huynh.github.io/posts/2018/adventures-in-rust/)
+- [Learning Parser Combinators With Rust](https://bodil.lol/parser-combinators/)
+- [Build Your Own Shell using Rust](https://www.joshmcguigan.com/blog/build-your-own-shell-rust/)
+- [Hecto: Build your own text editor in Rust ](https://www.flenker.blog/hecto/)
+- [Command line apps in Rust](https://rust-cli.github.io/book/index.html)
+- [Writing a Command Line Tool in Rust](https://mattgathu.dev/2017/08/29/writing-cli-app-rust.html)
+- [Build your own Redis client and server](https://tokio.rs/tokio/tutorial/setup)
+
+
