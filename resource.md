@@ -3,15 +3,36 @@ layout: page
 title: Resources
 permalink: /resources/
 ---
-## Table of Contents
+## **Table of Contents**
 - [Assets and Tools](#assets-and-tools)
+  - [General Tools and Resources](#general-tools-and-resources)
+  - [Docker Resources](#docker-resources)
+  - [NGINX Resources](#nginx-resources)
+  - [Audio Resources](#audio-resources)
+  - [CSS Frameworks](#css-frameworks)
+- [C/C++](#cc)
+  - [Network programming](#network-programming)
+  - [OpenGL](#opengl)
+  - [Compilation and Debugging](#compilation-and-debugging)
+  - [C](#c)
+  - [C++](#c-1)
 - [Go](#go)
 - [Python](#python)
+  - [Project Ideas and Resources](#project-ideas-and-resources)
+  - [Web Scraping](#web-scraping)
+  - [Web Applications](#web-applications)
+  - [Bots](#bots)
+  - [Data Science](#data-science)
+  - [Machine Learning](#machine-learning)
+  - [OpenCV](#opencv)
+  - [Deep Learning](#deep-learning)
+  - [Miscellaneous](#miscellaneous)
 - [Rust](#rust)
 
-## Assets and Tools
+## **Assets and Tools**
 
-#### General Tools & Resources
+#### **General Tools and Resources**
+- [Markdown Guide](https://www.markdownguide.org/basic-syntax/) - The Markdown elements outlined in the original design document.
 - [SVG Pro](https://www.svgrepo.com/ "SVG Pro") - Search, explore and edit the best-fitting free icons or vectors for your projects using a wide variety vector library. 
 - [Cloud Converter](https://cloudconvert.com/ "Cloud Converter") - A resource that allows various file formats to be converted into a different format (i.e. png to ico)
 - [Extends Class Developer Tools](https://extendsclass.com/ "Extends Class Developer Tools") - A collection of tools for developers to help with formatting and organizing code.
@@ -21,7 +42,19 @@ permalink: /resources/
 - [KeyBR](https://www.keybr.com/account "KeyBR") - A resource for improveing typing speed on the keyboard.
 - [Geeks for Geeks](https://www.geeksforgeeks.org/ "Geeks for Geeks") - A resource for develoeprs which include various articles, guides on data structures and video tutorials on various subjects.
 
-#### Audio Resources
+#### **Docker Resources**
+- [Docker Documentation](https://hub.docker.com/ "Docker Documentation") - Basic documentation for using Docker
+- [Docker with React/Vue and Vite](https://dev.to/ysmnikhil/how-to-build-with-react-or-vue-with-vite-and-docker-1a3l "Docker with React/Vue and Vite") - An article that provides steps on using the Vite runtime with a Docker container for a React or Vue project
+- [Geeks for Geeks Docker Resource](https://www.geeksforgeeks.org/containerization-using-docker/?ref=lbp "Geeks for Geeks Docker Resource") - Resources provided by Geeks for Geeks on using Docker
+- [Docker Exec](https://docs.docker.com/reference/cli/docker/container/exec/ "Docker Exec") - A common command; this documentation shows the use of the exec function and running shell commands within Docker
+- [Dockerize a React/Vite Project](https://www.webdevolution.com/blog/how-to-use-docker-with-react-and-vite/ "Dockerize a React/Vite Project") - This guide provides an overview on creating a basic docker container for a react application
+
+#### **NGINX Resources**
+- [NGINX Documentation](https://docs.nginx.com/nginx/ "NGINX Documentation") - The documentation for NGINX; includes setting up web servers and proxies
+- [Serving Multiple Websites with a Single Nginx Server](https://www.youtube.com/watch?v=HWrhSpN4ar0 "Serving Multiple Websites with a Single Nginx Server") - A basic guide on using NGINX proxies to host multiple domains on a single server
+- [How to Host Multiple Docker Containers on a Single Server with Nginx Reverse Proxy](https://www.youtube.com/watch?v=spbkCihFpQ8 "How to Host Multiple Docker Containers on a Single Server with Nginx Reverse Proxy?") - Hosting several docker containers through an NGINX Reverse Proxy
+
+#### **Audio Resources**
 - [sfxr](https://drpetter.se/projectsfxr.html "sfxr") - Legacy software that can be used to generate some new sounds
 - [ChipTone](https://sfbgames.itch.io/chiptone "ChipTone") - Online resource for generating simple wave files for sound effects
 - [FamiTracker](http://www.famitracker.com/links.php "FamiTracker") - An additional audio resources for creating audio files
@@ -29,13 +62,13 @@ permalink: /resources/
 - [LMMS](https://lmms.io/ "LMMS") - Official site for LMMS, an open source tool for creating audio tracks
 - [LMMS Repo](https://github.com/LMMS/lmms "LMMS Repo") - The Github repository for LMMS
 
-#### CSS Frameworks
+#### **CSS Frameworks**
 - [PicoCSS](https://picocss.com/) - Minimal CSS Framework for Semantic HTML
 - [BeerCSS(https://www.beercss.com/) - Build material design interfaces in record time
+ 
+## **C/C++**
 
-## C/C++
-
-#### Network programming
+#### **Network programming**
 - Let's Code a TCP/IP Stack
   - [Part 1: Ethernet & ARP](http://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/)
   - [Part 2: IPv4 & ICMPv4](http://www.saminiir.com/lets-code-tcp-ip-stack-2-ipv4-icmpv4/)
@@ -50,7 +83,7 @@ permalink: /resources/
   - [Part 5 - Redis case study](https://eli.thegreenplace.net/2017/concurrent-servers-part-5-redis-case-study/)
   - [Part 6 - Callbacks, Promises and async/await](https://eli.thegreenplace.net/2018/concurrent-servers-part-6-callbacks-promises-and-asyncawait/)
 
-#### OpenGL
+#### **OpenGL**
   - [Breakout](https://learnopengl.com/In-Practice/2D-Game/Breakout)
   - [Setting up](https://learnopengl.com/In-Practice/2D-Game/Setting-up)
   - [Rendering Sprites](https://learnopengl.com/In-Practice/2D-Game/Rendering-Sprites)
@@ -66,7 +99,7 @@ permalink: /resources/
   - [Render text](https://learnopengl.com/In-Practice/2D-Game/Render-text)
   - [Final thoughts](https://learnopengl.com/In-Practice/2D-Game/Final-thoughts)
 
-#### Compilation and Debugging
+#### **Compilation and Debugging**
 - Write a C compiler
   - [Part 1: Integers, Lexing and Code Generation](https://norasandler.com/2017/11/29/Write-a-Compiler.html)
   - [Part 2: Unary Operators](https://norasandler.com/2017/12/05/Write-a-Compiler-2.html)
@@ -99,7 +132,7 @@ permalink: /resources/
   - [Part 7: Arrays](https://briancallahan.net/blog/20210822.html)
   - [Part 8: Strings, forward references, and conclusion](https://briancallahan.net/blog/20210826.html)
 
-#### C
+#### **C**
 - [Let's Build a Simple Database](https://cstack.github.io/dbtutorial/)
 - [Linux containers in 500 lines of code](https://blog.lizzie.io/linux-containers-in-500-loc.html)
 - [Write your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/)
@@ -130,7 +163,7 @@ permalink: /resources/
 - [Sol - An MQTT broker from scratch](https://codepr.github.io/posts/sol-mqtt-broker)
 - [Write a Bootloader in C](http://3zanders.co.uk/2017/10/13/writing-a-bootloader/)
 
-#### C++
+#### **C++**
 - [Introduction to Ray Tracing: a Simple Method for Creating 3D Images](https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing/how-does-it-work)
 - [How OpenGL works: software rendering in 500 lines of code](https://github.com/ssloy/tinyrenderer/wiki)
 - [Raycasting engine of Wolfenstein 3D](http://lodev.org/cgtutor/raycasting.html)
@@ -146,7 +179,11 @@ permalink: /resources/
 - [How to Create a Custom Physics Engine](https://gamedevelopment.tutsplus.com/series/how-to-create-a-custom-physics-engine--gamedev-12715)
 - [Designing a Simple Text Editor](http://www.fltk.org/doc-1.1/editor.html)
 
-## Go
+## **Go**
+- [GO By Example](https://gobyexample.com/ "GO By Example") - A step by step guide in teaching the GO programming language. Simple examples are provided to help the end user develop with Go.
+- [GO Tour](https://go.dev/tour "GO Tour") - A step by step guide on the basics of GO
+- [Learn GO with Tests](https://quii.gitbook.io/learn-go-with-tests/ "Learn GO with Tests") - A tutorial series for building an application in GO with automated unit tests
+- [Effective GO](https://go.dev/doc/effective_go "Effective GO") - This document gives tips for writing clear, idiomatic Go code. It augments the language specification, the Tour of Go, and How to Write Go Code, all of which you should read first. 
 - [Build Your Own Database from Scratch: Persistence, Indexing, Concurrency](https://build-your-own.org/database/)
 - [Build Your Own Redis from Scratch](https://www.build-redis-from-scratch.dev/)
 - [Build a multilayer perceptron with Golang](https://made2591.github.io/posts/neuralnetwork)
@@ -159,12 +196,12 @@ permalink: /resources/
 - [How to Use Godog for Behavior-driven Development in Go](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go)
 - [Go WebAssembly Tutorial - Building a Calculator Tutorial](https://tutorialedge.net/golang/go-webassembly-tutorial/)
 
-## Python
+## **Python**
 - [Automate the Boring Stuff](https://automatetheboringstuff.com/)
 - [Invent with Python](https://inventwithpython.com/)
 - [Python Formatter](https://extendsclass.com/python-formatter.html)
 
-#### Project Ideas and Resources
+#### **Project Ideas and Resources**
 - [A 3D Modeller](http://aosabook.org/en/500L/a-3d-modeller.html)
 - [DBDB: Dog Bed Database](http://aosabook.org/en/500L/dbdb-dog-bed-database.html)
 - [Write your own miniature Redis with Python](http://charlesleifer.com/blog/building-a-simple-redis-server-with-python/)
@@ -185,15 +222,13 @@ permalink: /resources/
 - [Building a basic HTTP Server from scratch in Python](http://joaoventura.net/blog/2017/python-webserver/)
 - [Continuous Integration System](http://aosabook.org/en/500L/a-continuous-integration-system.html)
 
-#### Web Scraping:
-
+#### **Web Scraping**
 - [Mining Twitter Data with Python](https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/)
 - [Scrape a Website with Scrapy and MongoDB](https://realpython.com/blog/python/web-scraping-with-scrapy-and-mongodb/)
 - [How To Scrape With Python and Selenium WebDriver](http://www.byperth.com/2018/04/25/guide-web-scraping-101-what-you-need-to-know-and-how-to-scrape-with-python-selenium-webdriver/)
 - [Which Movie Should I Watch using BeautifulSoup](https://medium.com/@nishantsahoo.in/which-movie-should-i-watch-5c83a3c0f5b1)
 
-#### Web Applications:
-
+#### **Web Applications**
 - [A Simple Web Server](http://aosabook.org/en/500L/a-simple-web-server.html)
 - [Let’s Build A Web Server.](https://ruslanspivak.com/lsbaws-part1/)
 - [Web application from scratch](https://defn.io/2018/02/25/web-app-from-scratch-01/)
@@ -217,8 +252,7 @@ permalink: /resources/
   - [Part 5](https://danidee10.github.io/2018/01/13/realtime-django-5.html)
   - [Part 6](https://danidee10.github.io/2018/03/12/realtime-django-6.html)
 
-#### Bots:
-
+#### **Bots**
 - [Build a Reddit Bot](http://pythonforengineers.com/build-a-reddit-bot-part-1/)
 - [How to Make a Reddit Bot - YouTube](https://www.youtube.com/watch?v=krTUf7BpTc0) (video)
 - [Build a Facebook Messenger Bot](https://blog.hartleybrody.com/fb-messenger-bot/)
@@ -228,8 +262,7 @@ permalink: /resources/
   - [Part 2](https://khashtamov.com/en/how-to-deploy-telegram-bot-django/)
 - [Create a Twitter Bot In Python](https://medium.freecodecamp.org/creating-a-twitter-bot-in-python-with-tweepy-ac524157a607)
 
-#### Data Science:
-
+#### **Data Science**
 - Learn Python For Data Science by Doing Several Projects (video):
   - [Part 1: Introduction](https://www.youtube.com/watch?v=T5pRlIbr6gg)
   - [Part 2: Twitter Sentiment Analysis](https://www.youtube.com/watch?v=oOZdbCzHUA)
@@ -238,8 +271,7 @@ permalink: /resources/
   - [Part 5: Deep Dream in TensorFlow](https://www.youtube.com/watch?v=MrBzgvUNr4w&list=PL2-dafEMk2A6QKz1mrk1uIGfHkC1zZ6UU&index=5)
   - [Part 6: Genetic Algorithms](https://www.youtube.com/watch?v=dSofAXnnFrY&index=6&list=PL2-dafEMk2A6QKz1mrk1uIGfHkC1zZ6UU)
 
-#### Machine Learning:
-
+#### **Machine Learning**
 - [Write Linear Regression From Scratch in Python](https://www.youtube.com/watch?v=uwwWVAgJBcM) (video)
 - [Step-By-Step Machine Learning In Python](https://machinelearningmastery.com/machine-learning-in-python-step-by-step/)
 - [Predict Quality Of Wine](https://medium.freecodecamp.org/using-machine-learning-to-predict-the-quality-of-wines-9e2e13d7480d)
@@ -256,8 +288,7 @@ permalink: /resources/
 - [Learn ML Algorithms by coding: Decision Trees](https://lethalbrains.com/learn-ml-algorithms-by-coding-decision-trees-439ac503c9a4)
 - [JSON Decoding Algorithm](https://github.com/cheery/json-algorithm)
 
-#### OpenCV:
-
+#### **OpenCV**
 - [Build A Document Scanner](https://www.pyimagesearch.com/2014/09/01/build-kick-ass-mobile-document-scanner-just-5-minutes/)
 - [Build A Face Detector using OpenCV and Deep Learning](https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/)
 - [Build fastest custom object Detection system yusing YOLOv3(video playlist)](https://www.youtube.com/playlist?list=PLKHYJbyeQ1a0oGzgRXy-QwAN1tSV4XZxg)
@@ -286,8 +317,7 @@ permalink: /resources/
 - [Instance Segmentation with OpenCV](https://www.pyimagesearch.com/2018/11/26/instance-segmentation-with-opencv/)
 - [Face mask detector](https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/)
 
-#### Deep Learning:
-
+#### **Deep Learning**
 - [Using Convolutional Neural Nets to Detect Facial Keypoints](http://danielnouri.org/notes/2014/12/17/using-convolutional-neural-nets-to-detect-facial-keypoints-tutorial/)
 - [Generate an Average Face using Python and OpenCV](https://www.learnopencv.com/average-face-opencv-c-python-tutorial/)
 - [Break A Captcha System using CNNs](https://medium.com/@ageitgey/how-to-break-a-captcha-system-in-15-minutes-with-machine-learning-dbebb035a710)
@@ -327,8 +357,7 @@ permalink: /resources/
 - [Code a Taylor Swift Lyrics Generator](https://towardsdatascience.com/ai-generates-taylor-swifts-song-lyrics-6fd92a03ef7e)
 - [Mask detection using PyTorch Lightning](https://towardsdatascience.com/how-i-built-a-face-mask-detector-for-covid-19-using-pytorch-lightning-67eb3752fd61)
 
-#### Miscellaneous:
-
+#### **Miscellaneous**
 - [Build a Simple Interpreter](https://ruslanspivak.com/lsbasi-part1/)
 - [Build a Simple Blockchain in Python](https://hackernoon.com/learn-blockchains-by-building-one-117428612f46)
 - [Write a NoSQL Database in Python](https://jeffknupp.com/blog/2014/09/01/what-is-a-nosql-database-learn-by-writing-one-in-python/)
@@ -351,7 +380,7 @@ permalink: /resources/
 - [A Python implementation of a Python bytecode runner](https://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html)
 - [Create a Voice assistant using Python](https://www.geeksforgeeks.org/voice-assistant-using-python/)
 
-## Rust:
+## **Rust**
 - [Learning Rust by building a partial Game Boy emulator](https://jeremybanks.github.io/0dmg/)
 - A Simple Web App in Rust
   - [Part 1](http://joelmccracken.github.io/entries/a-simple-web-app-in-rust-pt-1/)
