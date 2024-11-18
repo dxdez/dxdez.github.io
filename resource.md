@@ -10,6 +10,7 @@ permalink: /resources/
   - [NGINX Resources](#nginx-resources)
   - [Audio Resources](#audio-resources)
   - [CSS Frameworks](#css-frameworks)
+- [JavaScript](#javascript)
 - [C/C++](#cc)
   - [Network programming](#network-programming)
   - [OpenGL](#opengl)
@@ -65,6 +66,10 @@ permalink: /resources/
 #### **CSS Frameworks**
 - [PicoCSS](https://picocss.com/) - Minimal CSS Framework for Semantic HTML
 - [BeerCSS(https://www.beercss.com/) - Build material design interfaces in record time
+
+## **JavaScript**
+- [You might not need jQuery](https://youmightnotneedjquery.com/)
+- [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript?tab=readme-ov-file#standard-library)
  
 ## **C/C++**
 
