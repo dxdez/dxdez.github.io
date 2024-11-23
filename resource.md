@@ -43,17 +43,17 @@ permalink: /resources/
 - [KeyBR](https://www.keybr.com/account "KeyBR") - A resource for improveing typing speed on the keyboard.
 - [Geeks for Geeks](https://www.geeksforgeeks.org/ "Geeks for Geeks") - A resource for develoeprs which include various articles, guides on data structures and video tutorials on various subjects.
 
-#### **Docker Resources**
+#### **Docker, NGINX and Deployment Resources**
 - [Docker Documentation](https://hub.docker.com/ "Docker Documentation") - Basic documentation for using Docker
 - [Docker with React/Vue and Vite](https://dev.to/ysmnikhil/how-to-build-with-react-or-vue-with-vite-and-docker-1a3l "Docker with React/Vue and Vite") - An article that provides steps on using the Vite runtime with a Docker container for a React or Vue project
 - [Geeks for Geeks Docker Resource](https://www.geeksforgeeks.org/containerization-using-docker/?ref=lbp "Geeks for Geeks Docker Resource") - Resources provided by Geeks for Geeks on using Docker
 - [Docker Exec](https://docs.docker.com/reference/cli/docker/container/exec/ "Docker Exec") - A common command; this documentation shows the use of the exec function and running shell commands within Docker
 - [Dockerize a React/Vite Project](https://www.webdevolution.com/blog/how-to-use-docker-with-react-and-vite/ "Dockerize a React/Vite Project") - This guide provides an overview on creating a basic docker container for a react application
-
-#### **NGINX Resources**
 - [NGINX Documentation](https://docs.nginx.com/nginx/ "NGINX Documentation") - The documentation for NGINX; includes setting up web servers and proxies
 - [Serving Multiple Websites with a Single Nginx Server](https://www.youtube.com/watch?v=HWrhSpN4ar0 "Serving Multiple Websites with a Single Nginx Server") - A basic guide on using NGINX proxies to host multiple domains on a single server
 - [How to Host Multiple Docker Containers on a Single Server with Nginx Reverse Proxy](https://www.youtube.com/watch?v=spbkCihFpQ8 "How to Host Multiple Docker Containers on a Single Server with Nginx Reverse Proxy?") - Hosting several docker containers through an NGINX Reverse Proxy
+- [Production Ready VPS with Go, Docker and Traefik](https://www.youtube.com/watch?v=F-9KWQByeU0 "Production Ready VPS with Go, Docker and Traefik") - Setting up a production ready VPS using tools such as Docker, Traefik and covering essentials such as hardened SSH and SSL
+
 
 #### **Audio Resources**
 - [sfxr](https://drpetter.se/projectsfxr.html "sfxr") - Legacy software that can be used to generate some new sounds
