@@ -53,6 +53,7 @@ permalink: /resources/
 - [Serving Multiple Websites with a Single Nginx Server](https://www.youtube.com/watch?v=HWrhSpN4ar0 "Serving Multiple Websites with a Single Nginx Server") - A basic guide on using NGINX proxies to host multiple domains on a single server
 - [How to Host Multiple Docker Containers on a Single Server with Nginx Reverse Proxy](https://www.youtube.com/watch?v=spbkCihFpQ8 "How to Host Multiple Docker Containers on a Single Server with Nginx Reverse Proxy?") - Hosting several docker containers through an NGINX Reverse Proxy
 - [Production Ready VPS with Go, Docker and Traefik](https://www.youtube.com/watch?v=F-9KWQByeU0 "Production Ready VPS with Go, Docker and Traefik") - Setting up a production ready VPS using tools such as Docker, Traefik and covering essentials such as hardened SSH and SSL
+- [Deploying to VPS using Docker Stack](https://www.youtube.com/watch?v=fuZoxuBiL9o "Deploying to VPS using Docker Stack") - A follow-up to the go deployment video on a VPS, this series involves the use of Docket Stack for production deployment.
 
 
 #### **Audio Resources**
