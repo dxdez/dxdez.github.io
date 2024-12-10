@@ -9,6 +9,7 @@ permalink: /resources/
   - [Docker, NGINX and Deployment Resources](#docker-nginx-and-deployment-resources)
   - [Audio Resources](#audio-resources)
   - [CSS Frameworks](#css-frameworks)
+  - [AI](#ai)
 - [Linux](#linux)
 - [JavaScript](#javascript)
 - [C/C++](#cc)
@@ -67,6 +68,12 @@ permalink: /resources/
 #### **CSS Frameworks**
 - [PicoCSS](https://picocss.com/) - Minimal CSS Framework for Semantic HTML
 - [BeerCSS](https://www.beercss.com/) - Build material design interfaces in record time
+
+#### **AI**
+- [Ollama Github](https://github.com/ollama/ollama "Ollama Github") - Official Github Repo for Ollama
+- [Ollama Docker](https://hub.docker.com/r/ollama/ollama "Ollama Docker") - Official Docker Container for Ollama
+- [Qwen Coder](https://ollama.com/library/qwen2.5-coder "Qwen Coder") - Data Model for Coding
+- [Codestral](https://ollama.com/library/codestral:22b/blobs/22a849aafe3d "Codestral") - Data Model for Coding
 
 ## **Linux**
 - [HowToForge](https://www.howtoforge.com/ "HowToForge") - A helpful resource on using various programs and utilities within linux both on the server and desktop
