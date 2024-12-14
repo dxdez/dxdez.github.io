@@ -88,6 +88,8 @@ permalink: /resources/
 - [Making Executable Files in Linux](https://gcore.com/learning/how-to-make-file-executable-in-linux/ "Making Executable Files in Linux") - This article provides guidance on executing files in Linux
 - [LibreOffice Development]("https://www.libreoffice.org/community/developers/") - Resources on contributing to the LibreOffice project
 - [Linux Handbook](https://linuxhandbook.com/ "Linux Handbook") - A helpful site with a variety of articles on maintaining a linux server and setting up a devops pipeline on linux
+- [Alpine Linux Wiki](https://wiki.alpinelinux.org/wiki/Main_Page) - The wiki for using Alpine Linux
+- [Alma Linux Wiki](https://wiki.almalinux.org/) - The wiki for using Alma Linux
 
 ## **JavaScript**
 - [You might not need jQuery](https://youmightnotneedjquery.com/)
