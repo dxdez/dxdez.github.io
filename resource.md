@@ -74,6 +74,8 @@ permalink: /resources/
 - [Ollama Docker](https://hub.docker.com/r/ollama/ollama "Ollama Docker") - Official Docker Container for Ollama
 - [Qwen Coder](https://ollama.com/library/qwen2.5-coder "Qwen Coder") - Data Model for Coding
 - [Codestral](https://ollama.com/library/codestral:22b/blobs/22a849aafe3d "Codestral") - Data Model for Coding
+- [Mistral](https://ollama.com/library/mistral "Mistral") - The 7B model released by Mistral AI
+- [Stable Diffusion](https://github.com/CompVis/stable-diffusion) - The github repository for Stable Diffusion input to image
 
 ## **Linux**
 - [HowToForge](https://www.howtoforge.com/ "HowToForge") - A helpful resource on using various programs and utilities within linux both on the server and desktop
