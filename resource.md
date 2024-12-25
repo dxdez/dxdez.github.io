@@ -92,6 +92,7 @@ permalink: /resources/
 - [Linux Handbook](https://linuxhandbook.com/ "Linux Handbook") - A helpful site with a variety of articles on maintaining a linux server and setting up a devops pipeline on linux
 - [Alpine Linux Wiki](https://wiki.alpinelinux.org/wiki/Main_Page) - The wiki for using Alpine Linux
 - [Alma Linux Wiki](https://wiki.almalinux.org/) - The wiki for using Alma Linux
+- [Linux Man Pages](https://linux.die.net/man/) - A collection of man pages, detailing various functions and programs in linux. 
 
 ## **JavaScript**
 - [You might not need jQuery](https://youmightnotneedjquery.com/)
