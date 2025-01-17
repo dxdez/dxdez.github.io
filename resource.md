@@ -8,7 +8,7 @@ permalink: /resources/
   - [General Tools and Resources](#general-tools-and-resources)
   - [Docker, NGINX and Deployment Resources](#docker-nginx-and-deployment-resources)
   - [Audio Resources](#audio-resources)
-  - [CSS Frameworks](#css-frameworks)
+  - [CSS Frameworks and Resources](#css-frameworks-and-resources)
   - [AI](#ai)
 - [Linux](#linux)
 - [JavaScript](#javascript)
@@ -65,9 +65,10 @@ permalink: /resources/
 - [LMMS](https://lmms.io/ "LMMS") - Official site for LMMS, an open source tool for creating audio tracks
 - [LMMS Repo](https://github.com/LMMS/lmms "LMMS Repo") - The Github repository for LMMS
 
-#### **CSS Frameworks**
+#### **CSS Frameworks and Resources**
 - [PicoCSS](https://picocss.com/) - Minimal CSS Framework for Semantic HTML
 - [BeerCSS](https://www.beercss.com/) - Build material design interfaces in record time
+- [Basic Card Grid](https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layout-4842a41420fe) - A guide on creating a basic grid in CSS
 
 #### **AI**
 - [Ollama Github](https://github.com/ollama/ollama "Ollama Github") - Official Github Repo for Ollama
