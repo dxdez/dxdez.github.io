@@ -75,6 +75,8 @@ permalink: /resources/
 - [Ollama Docker](https://hub.docker.com/r/ollama/ollama "Ollama Docker") - Official Docker Container for Ollama
 - [Qwen Coder](https://ollama.com/library/qwen2.5-coder "Qwen Coder") - Data Model for Coding
 - [Codestral](https://ollama.com/library/codestral:22b/blobs/22a849aafe3d "Codestral") - Data Model for Coding
+- [Mistral](https://ollama.com/library/mistral "Mistral") - The 7B model released by Mistral AI
+- [Stable Diffusion](https://github.com/CompVis/stable-diffusion) - The github repository for Stable Diffusion input to image
 
 ## **Linux**
 - [HowToForge](https://www.howtoforge.com/ "HowToForge") - A helpful resource on using various programs and utilities within linux both on the server and desktop
@@ -89,6 +91,9 @@ permalink: /resources/
 - [Making Executable Files in Linux](https://gcore.com/learning/how-to-make-file-executable-in-linux/ "Making Executable Files in Linux") - This article provides guidance on executing files in Linux
 - [LibreOffice Development]("https://www.libreoffice.org/community/developers/") - Resources on contributing to the LibreOffice project
 - [Linux Handbook](https://linuxhandbook.com/ "Linux Handbook") - A helpful site with a variety of articles on maintaining a linux server and setting up a devops pipeline on linux
+- [Alpine Linux Wiki](https://wiki.alpinelinux.org/wiki/Main_Page) - The wiki for using Alpine Linux
+- [Alma Linux Wiki](https://wiki.almalinux.org/) - The wiki for using Alma Linux
+- [Linux Man Pages](https://linux.die.net/man/) - A collection of man pages, detailing various functions and programs in linux. 
 
 ## **JavaScript**
 - [You might not need jQuery](https://youmightnotneedjquery.com/)
