@@ -229,6 +229,7 @@ permalink: /resources/
 - [How to Use Godog for Behavior-driven Development in Go](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go)
 - [Go WebAssembly Tutorial - Building a Calculator Tutorial](https://tutorialedge.net/golang/go-webassembly-tutorial/)
 - [Go Sample Plugin, Epub from HTML](https://github.com/gonejack/html-to-epub)
+- [Go Sample Plugin, PDF from HTML](https://github.com/Mindinventory/Golang-HTML-TO-PDF-Converter)
 
 ## **Python**
 - [Automate the Boring Stuff](https://automatetheboringstuff.com/)
