@@ -5,9 +5,7 @@ date:   2024-01-29 10:36:24 -0500
 ---
 
 ## Install Multiple Python Versions for Specific Project
-
 - Home project: https://github.com/pyenv/pyenv
-
 - Reference to: https://www.tecmint.com/pyenv-install-and-manage-multiple-python-versions-in-linux/
 
 ## 1. Install pyenv in Linux
@@ -16,8 +14,7 @@ date:   2024-01-29 10:36:24 -0500
 
 ```shell
 # On Debian/Ubuntu/Linux Mint ------------ 
-sudo apt install curl git-core gcc make zlib1g-dev libbz2-dev 
-libreadline-dev libsqlite3-dev libssl-dev
+sudo apt install curl git-core gcc make zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev libssl-dev
 
 # On CentOS/RHEL ------------
 sudo yum -y install epel-release
@@ -82,7 +79,7 @@ pyenv global
 # you can set the Python version of it using following command.
 cd python_projects/test
 pyenv local 3.6.5
-pyenv version		#view local python version for a specific project, or:
+pyenv version                #view local python version for a specific project, or:
 pyenv versions
 ```
 
@@ -97,7 +94,7 @@ git clone https://github.com/yyuu/pyenv-virtualenv.git $HOME/.pyenv/plugins/pyen
 source $HOME/.bashrc
 ```
 
-### 3.1. Create a test virtual environment
+### 3.2. Create a test virtual environment
 
 called **venv_project1** under a project called **project1** as follows
 
