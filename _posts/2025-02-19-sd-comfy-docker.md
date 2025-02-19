@@ -65,3 +65,6 @@ We encourage you to explore both tools, as they offer different benefits that co
 - [Stable Diffusion WebUI Docker FAQ Wiki](https://github.com/AbdBarho/stable-diffusion-webui-docker/wiki/FAQ)
 - [Comfy UI GitHub](https://github.com/comfyanonymous/ComfyUI)
 
+### Additional Guides:
+- [IMG2IMG in Comfy UI](https://www.youtube.com/watch?v=5ZO02NgdL3A)
+- [Prompt Cheatsheet](https://supagruen.github.io/StableDiffusion-CheatSheet/)
