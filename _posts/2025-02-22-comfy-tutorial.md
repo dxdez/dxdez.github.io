@@ -64,3 +64,9 @@ At the core of the **ComfyUI** experience is the ability to intercept various co
 ### Conclusion
 
 Mastering **ComfyUI** for **Stable Diffusion** requires an understanding of how the different nodes work together. While the default pipeline is powerful, the ability to intercept and customize various stages of the process opens up a world of possibilities for creative expression. Whether you’re using **ControlNet**, incorporating **LORAs**, or making advanced customizations, ComfyUI empowers you to produce high-quality, diverse images. With practice, you’ll become proficient in using this node-based software, unlocking your full creative potential.
+
+#### Further Reading and Examples
+
+- [Comfy UI Examples Img2Img](https://comfyanonymous.github.io/ComfyUI_examples/img2img/)
+- [Comfy UI Examples InPainting](https://comfyanonymous.github.io/ComfyUI_examples/inpaint/)
+- [Comfy UI Further Examples](https://comfyanonymous.github.io/ComfyUI_examples/)
