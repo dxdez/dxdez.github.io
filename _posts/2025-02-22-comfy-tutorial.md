@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to Use ComfyUI for Stable Diffusion: A Detailed Guide"
-date:   2025-02-22 10:01:21 -0500
+date:   2025-02-22 08:01:21 -0500
 ---
 **Introduction to ComfyUI Workflow**
 
@@ -19,9 +19,7 @@ The [Load Checkpoint](https://imgur.com/ecyQeHZ) node serves as the gateway to y
 
 Once the artist has been selected, the **KSampler Node** takes on the role of manager. This node receives instructions from the **Load Checkpoint Node**, determining how long the artist should work on the image and how much time is allocated for the creation process. The **KSampler** essentially ensures that the workflow is running smoothly, like a manager overseeing an artist in a studio. Without the **KSampler**, the process would lack structure and could lead to inconsistent results.
 
-![KSampler Node](https://i.imgur.com/KYUS7o3.png)
-
-The [KSampler](https://imgur.com/KYUS7o3) node is what bridges the connection between the artistic creation and the operational timeline, ensuring everything runs on schedule.
+The KSampler node is what bridges the connection between the artistic creation and the operational timeline, ensuring everything runs on schedule.
 
 #### 3. Empty Latent Image: The Canvas
 
@@ -31,9 +29,7 @@ Every artist needs a canvas, and in ComfyUI, the **Empty Latent Image** node ser
 
 Once the artwork begins to take shape, it needs quality control. This is where the **VAE Decode** node steps in. Think of it as the process that refines and enhances the rough idea into a polished, finalized image. Some artists have built-in quality control, so they may not require this node. However, certain models will benefit from it, ensuring the final image is up to standards.
 
-![VAE Decode Node](https://i.imgur.com/0lOePFO.png)
-
-The [VAE Decode](https://imgur.com/0lOePFO) node acts as the fine-tuning mechanism that ensures the image is not just a sketch, but a complete and polished creation.
+The VAE Decode node acts as the fine-tuning mechanism that ensures the image is not just a sketch, but a complete and polished creation.
 
 #### 5. Clip Text Encode Node: Providing Instructions
 
@@ -42,10 +38,6 @@ In every creative endeavor, guidance is essential. The **Clip Text Encode** node
 #### 6. Preview Image and Save Image Nodes: Seeing and Preserving the Art
 
 To truly appreciate your work, you need to preview it and save the final result. The **Preview Image** and **Save Image** nodes are responsible for this step. Without these nodes, your creation will stay trapped within the workflow, unseen. The **Preview Image** node lets you visualize your artwork as it's being created, and the **Save Image** node ensures it is preserved once completed.
-
-![Save Image Node](https://i.imgur.com/FHZ8Pgo.png)
-
-For those interested, you can also access a preview of the [Save Image Node](https://imgur.com/FHZ8Pgo) in action.
 
 ### How to Incorporate ControlNet and LORAs into Your Workflow
 
@@ -59,9 +51,7 @@ Much like how manga artists have assistants to help with specific tasks, ComfyUI
 
 The **ControlNet** plays a crucial role in enforcing the rules and guidelines that the manager (the **KSampler**) must follow. It acts as a set of protocols that the manager adheres to, ensuring the output stays within the desired boundaries. The **ControlNet** functions as a "Safety Officer," intercepting the **conditioning** connection and checking that everything aligns with your desired constraints.
 
-![ControlNet Node](https://i.imgur.com/4MHLdGq.png)
-
-The [ControlNet](https://imgur.com/4MHLdGq) node ensures that all creations are in compliance with your set parameters.
+The ControlNode node ensures that all creations are in compliance with your set parameters.
 
 #### 9. Load ControlNet Model and Preprocessor: The Legal Team
 
