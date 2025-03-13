@@ -64,6 +64,7 @@ permalink: /resources/
 - [Programming Benchmarks](https://programming-language-benchmarks.vercel.app "Programming Benchmarks") - Online resource for comparing various programming benchmarks
 - [LMMS](https://lmms.io/ "LMMS") - Official site for LMMS, an open source tool for creating audio tracks
 - [LMMS Repo](https://github.com/LMMS/lmms "LMMS Repo") - The Github repository for LMMS
+- [Audiveris](https://audiveris.github.io/audiveris/) - Engine for converting printed music sheets to convert them into a machine readable form.
 
 #### **CSS Frameworks and Resources**
 - [PicoCSS](https://picocss.com/) - Minimal CSS Framework for Semantic HTML
