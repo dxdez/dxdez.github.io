@@ -23,6 +23,15 @@ To get started with **Stable Diffusion WebUI Docker**, you can follow these step
 3. **Configure Docker**: Follow the setup instructions provided in the [Setup Wiki](https://github.com/AbdBarho/stable-diffusion-webui-docker/wiki/Setup) to configure the Docker container for running Stable Diffusion.
 4. **Run the Container**: Once Docker is set up and configured, you can run the Docker container, which will launch the WebUI.
 
+#### Commands to run the container:
+```
+docker compose --profile download up --build
+# wait until its done, then:
+docker compose --profile [ui] up --build
+# where [ui] is one of: auto | auto-cpu | comfy | comfy-cpu
+```
+If you are unsure which option to use, select `auto`
+
 For detailed steps on configuration, visit the [Setup Wiki](https://github.com/AbdBarho/stable-diffusion-webui-docker/wiki/Setup).
 
 ### How to Use Stable Diffusion WebUI Docker
