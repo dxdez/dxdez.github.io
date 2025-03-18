@@ -78,6 +78,8 @@ permalink: /resources/
 - [Codestral](https://ollama.com/library/codestral:22b/blobs/22a849aafe3d "Codestral") - Data Model for Coding
 - [Mistral](https://ollama.com/library/mistral "Mistral") - The 7B model released by Mistral AI
 - [Stable Diffusion](https://github.com/CompVis/stable-diffusion) - The github repository for Stable Diffusion input to image
+- [Extra Content - Image to Line Art Workflow Tutorial](https://www.youtube.com/watch?v=XodTkkpdSyo)
+- [Extra Content - Refiner Workflows](https://www.youtube.com/watch?v=mUqzA5D0k9E)
 
 ## **Linux**
 - [HowToForge](https://www.howtoforge.com/ "HowToForge") - A helpful resource on using various programs and utilities within linux both on the server and desktop
