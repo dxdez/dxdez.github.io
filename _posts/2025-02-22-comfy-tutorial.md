@@ -70,3 +70,5 @@ Mastering **ComfyUI** for **Stable Diffusion** requires an understanding of how 
 - [Comfy UI Examples Img2Img](https://comfyanonymous.github.io/ComfyUI_examples/img2img/)
 - [Comfy UI Examples InPainting](https://comfyanonymous.github.io/ComfyUI_examples/inpaint/)
 - [Comfy UI Further Examples](https://comfyanonymous.github.io/ComfyUI_examples/)
+- [Extra Content - Image to Line Art Workflow Tutorial](https://www.youtube.com/watch?v=XodTkkpdSyo)
+- [Extra Content - Refiner Workflows](https://www.youtube.com/watch?v=mUqzA5D0k9E)
