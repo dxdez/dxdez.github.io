@@ -110,4 +110,4 @@ The **Ollama CLI** is a powerful tool for AI-powered content generation. By usin
 Try it out and let me know what creative uses you come up with! 🚀
 
 Additional Reading:
-- [Running Ollama Via Terminal](https://www.hostinger.com/tutorials/ollama-cli-tutorial?utm_medium=ppc&utm_campaign=Generic-Tutorials-DSA|NT:Se|LO:CA&gad_source=1#Prompting_and_logging_responses_to_files)
+[Running Ollama Via Terminal](https://www.hostinger.com/tutorials/ollama-cli-tutorial?utm_medium=ppc&utm_campaign=Generic-Tutorials-DSA)
