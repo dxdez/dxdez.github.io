@@ -3,9 +3,6 @@ layout: post
 title:  "Automating Documentation Generation with Bash and Ollama"
 date:   2025-05-15 12:07:21 -0500
 ---
-Absolutely! Here’s a draft article that explains your Bash automation workflow, tailored for readers interested in scripting, AI, and productivity.
-
----
 
 When you have a collection of source files that need documentation, manually processing each file can be tedious and time-consuming. By leveraging Bash scripting and the Ollama large language model, you can automate this workflow and generate consistent documentation for every file in your project.
 
