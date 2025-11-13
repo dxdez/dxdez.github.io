@@ -7,8 +7,7 @@ url: ""
 github_username:  dxdez
 linkedin_username: dxdez
 
-remote_theme: pages-themes/slate@v0.2.0
+theme: minima
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
 
